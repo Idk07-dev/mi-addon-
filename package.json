@@ -1,10 +1,14 @@
 {
-  "name": "stremio-pelis",
+  "name": "stremio-pelis-villarrica",
   "version": "1.0.0",
+  "description": "Addon para Stremio",
   "main": "api/index.js",
   "dependencies": {
     "stremio-addon-sdk": "latest",
     "axios": "latest",
     "cheerio": "latest"
+  },
+  "scripts": {
+    "start": "node addon.js"
   }
 }
